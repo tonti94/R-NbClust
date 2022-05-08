@@ -1,5 +1,5 @@
-# R-NbClust
-How to use NbClust on R language
+# R-NbClust and remove scale
+How to use NbClust on R language and remove scale
  data=iris
 > data<-scale(iris[,-c(5)])
 > pmatrix=scale(data)
